@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1000px;
+            height: 1000px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "chris888222", "label": "chris888222", "shape": "dot", "size": 10}, {"id": "Littledragonpapertiger", "label": "Littledragonpapertiger", "shape": "dot", "size": 10}, {"id": "karagiselle", "label": "karagiselle", "shape": "dot", "size": 10}, {"id": "focus1974", "label": "focus1974", "shape": "dot", "size": 10}, {"id": "tk", "label": "tk", "shape": "dot", "size": 10}, {"id": "Kokky83", "label": "Kokky83", "shape": "dot", "size": 10}, {"id": "snowyg", "label": "snowyg", "shape": "dot", "size": 10}, {"id": "furryballs", "label": "furryballs", "shape": "dot", "size": 10}, {"id": "Yureak", "label": "Yureak", "shape": "dot", "size": 10}, {"id": "catwhisperer", "label": "catwhisperer", "shape": "dot", "size": 10}, {"id": "sellun", "label": "sellun", "shape": "dot", "size": 10}, {"id": "Samabieze", "label": "Samabieze", "shape": "dot", "size": 10}, {"id": "sunshinemou", "label": "sunshinemou", "shape": "dot", "size": 10}, {"id": "zenvey", "label": "zenvey", "shape": "dot", "size": 10}, {"id": "theblueark", "label": "theblueark", "shape": "dot", "size": 10}, {"id": "ah_leetw", "label": "ah_leetw", "shape": "dot", "size": 10}, {"id": "CCCustom", "label": "CCCustom", "shape": "dot", "size": 10}, {"id": "AnTzX_", "label": "AnTzX_", "shape": "dot", "size": 10}, {"id": "jjcc888", "label": "jjcc888", "shape": "dot", "size": 10}, {"id": "americanhippo", "label": "americanhippo", "shape": "dot", "size": 10}, {"id": "Spidie", "label": "Spidie", "shape": "dot", "size": 10}, {"id": "Broadwalk", "label": "Broadwalk", "shape": "dot", "size": 10}, {"id": "yukita", "label": "yukita", "shape": "dot", "size": 10}, {"id": "dilphinus", "label": "dilphinus", "shape": "dot", "size": 10}, {"id": "qhong61", "label": "qhong61", "shape": "dot", "size": 10}, {"id": "Tuakong", "label": "Tuakong", "shape": "dot", "size": 10}, {"id": "convictionn", "label": "convictionn", "shape": "dot", "size": 10}, {"id": "jacko123", "label": "jacko123", "shape": "dot", "size": 10}, {"id": "cpoh@rocketmail.com", "label": "cpoh@rocketmail.com", "shape": "dot", "size": 10}, {"id": "GBC", "label": "GBC", "shape": "dot", "size": 10}, {"id": "donut88", "label": "donut88", "shape": "dot", "size": 10}, {"id": "Alphas", "label": "Alphas", "shape": "dot", "size": 10}, {"id": "chromehead", "label": "chromehead", "shape": "dot", "size": 10}, {"id": "hwaa", "label": "hwaa", "shape": "dot", "size": 10}, {"id": "JackDulouz", "label": "JackDulouz", "shape": "dot", "size": 10}, {"id": "Kaylin", "label": "Kaylin", "shape": "dot", "size": 10}, {"id": "seatel", "label": "seatel", "shape": "dot", "size": 10}, {"id": "fullerms", "label": "fullerms", "shape": "dot", "size": 10}, {"id": "Apparatus", "label": "Apparatus", "shape": "dot", "size": 10}, {"id": "melankholy", "label": "melankholy", "shape": "dot", "size": 10}, {"id": "mero_cwj", "label": "mero_cwj", "shape": "dot", "size": 10}, {"id": "purpleberry", "label": "purpleberry", "shape": "dot", "size": 10}, {"id": "ceestudent", "label": "ceestudent", "shape": "dot", "size": 10}, {"id": "j4jersey.", "label": "j4jersey.", "shape": "dot", "size": 10}, {"id": "Laoyeh", "label": "Laoyeh", "shape": "dot", "size": 10}, {"id": "ginger1", "label": "ginger1", "shape": "dot", "size": 10}, {"id": "MaoZeDuo", "label": "MaoZeDuo", "shape": "dot", "size": 10}, {"id": "testerjp", "label": "testerjp", "shape": "dot", "size": 10}, {"id": "Strawberry_Cream", "label": "Strawberry_Cream", "shape": "dot", "size": 10}, {"id": "ipaq4444", "label": "ipaq4444", "shape": "dot", "size": 10}, {"id": "alamakazam", "label": "alamakazam", "shape": "dot", "size": 10}, {"id": "lampPC", "label": "lampPC", "shape": "dot", "size": 10}, {"id": "summersky1986", "label": "summersky1986", "shape": "dot", "size": 10}, {"id": "swordspirit", "label": "swordspirit", "shape": "dot", "size": 10}, {"id": "derrickgoh", "label": "derrickgoh", "shape": "dot", "size": 10}, {"id": "Phyber", "label": "Phyber", "shape": "dot", "size": 10}, {"id": "EmPtYsOuLz", "label": "EmPtYsOuLz", "shape": "dot", "size": 10}, {"id": "olivier_sg", "label": "olivier_sg", "shape": "dot", "size": 10}, {"id": "ronchan", "label": "ronchan", "shape": "dot", "size": 10}, {"id": "cai_png27", "label": "cai_png27", "shape": "dot", "size": 10}, {"id": "TheITGuy", "label": "TheITGuy", "shape": "dot", "size": 10}, {"id": "zul99z", "label": "zul99z", "shape": "dot", "size": 10}, {"id": "newmie", "label": "newmie", "shape": "dot", "size": 10}, {"id": "mirukuboi", "label": "mirukuboi", "shape": "dot", "size": 10}, {"id": "petetherock", "label": "petetherock", "shape": "dot", "size": 10}, {"id": "Leaper_SG", "label": "Leaper_SG", "shape": "dot", "size": 10}, {"id": "Haley86", "label": "Haley86", "shape": "dot", "size": 10}, {"id": "fishfillet", "label": "fishfillet", "shape": "dot", "size": 10}, {"id": "stanley81ng", "label": "stanley81ng", "shape": "dot", "size": 10}, {"id": "Gymrat76", "label": "Gymrat76", "shape": "dot", "size": 10}, {"id": "popdod", "label": "popdod", "shape": "dot", "size": 10}, {"id": "PeanutButtor", "label": "PeanutButtor", "shape": "dot", "size": 10}, {"id": "iyuoks", "label": "iyuoks", "shape": "dot", "size": 10}, {"id": "ParkJinYoung", "label": "ParkJinYoung", "shape": "dot", "size": 10}, {"id": "Meemoosaa", "label": "Meemoosaa", "shape": "dot", "size": 10}, {"id": "live2snap", "label": "live2snap", "shape": "dot", "size": 10}, {"id": "Shutterbox", "label": "Shutterbox", "shape": "dot", "size": 10}, {"id": "bigrockshow", "label": "bigrockshow", "shape": "dot", "size": 10}, {"id": "danielle123", "label": "danielle123", "shape": "dot", "size": 10}, {"id": "suzanne89", "label": "suzanne89", "shape": "dot", "size": 10}, {"id": "limpeh456", "label": "limpeh456", "shape": "dot", "size": 10}, {"id": "d3n", "label": "d3n", "shape": "dot", "size": 10}, {"id": "love rabbit", "label": "love rabbit", "shape": "dot", "size": 10}, {"id": "jereme310790", "label": "jereme310790", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "chris888222", "to": "Littledragonpapertiger", "weight": 10}, {"from": "Littledragonpapertiger", "to": "karagiselle", "weight": 10}, {"from": "focus1974", "to": "tk", "weight": 10}, {"from": "focus1974", "to": "Kokky83", "weight": 10}, {"from": "snowyg", "to": "furryballs", "weight": 10}, {"from": "Yureak", "to": "catwhisperer", "weight": 10}, {"from": "sellun", "to": "Samabieze", "weight": 20}, {"from": "sellun", "to": "sunshinemou", "weight": 10}, {"from": "sellun", "to": "zenvey", "weight": 10}, {"from": "sellun", "to": "theblueark", "weight": 20}, {"from": "sellun", "to": "ah_leetw", "weight": 20}, {"from": "CCCustom", "to": "AnTzX_", "weight": 10}, {"from": "CCCustom", "to": "jjcc888", "weight": 10}, {"from": "CCCustom", "to": "americanhippo", "weight": 20}, {"from": "AnTzX_", "to": "Spidie", "weight": 10}, {"from": "Broadwalk", "to": "americanhippo", "weight": 10}, {"from": "americanhippo", "to": "yukita", "weight": 10}, {"from": "americanhippo", "to": "dilphinus", "weight": 20}, {"from": "americanhippo", "to": "qhong61", "weight": 10}, {"from": "americanhippo", "to": "Tuakong", "weight": 10}, {"from": "americanhippo", "to": "convictionn", "weight": 10}, {"from": "americanhippo", "to": "jacko123", "weight": 10}, {"from": "catwhisperer", "to": "cpoh@rocketmail.com", "weight": 10}, {"from": "theblueark", "to": "GBC", "weight": 10}, {"from": "theblueark", "to": "donut88", "weight": 10}, {"from": "Alphas", "to": "chromehead", "weight": 10}, {"from": "Spidie", "to": "hwaa", "weight": 10}, {"from": "hwaa", "to": "JackDulouz", "weight": 10}, {"from": "dilphinus", "to": "Kaylin", "weight": 10}, {"from": "qhong61", "to": "seatel", "weight": 10}, {"from": "fullerms", "to": "Apparatus", "weight": 10}, {"from": "melankholy", "to": "mero_cwj", "weight": 10}, {"from": "melankholy", "to": "purpleberry", "weight": 10}, {"from": "ceestudent", "to": "j4jersey.", "weight": 10}, {"from": "ceestudent", "to": "Laoyeh", "weight": 10}, {"from": "ginger1", "to": "MaoZeDuo", "weight": 10}, {"from": "testerjp", "to": "Strawberry_Cream", "weight": 20}, {"from": "testerjp", "to": "ipaq4444", "weight": 20}, {"from": "alamakazam", "to": "lampPC", "weight": 10}, {"from": "summersky1986", "to": "swordspirit", "weight": 10}, {"from": "derrickgoh", "to": "Phyber", "weight": 20}, {"from": "Kaylin", "to": "EmPtYsOuLz", "weight": 10}, {"from": "olivier_sg", "to": "ronchan", "weight": 10}, {"from": "cai_png27", "to": "TheITGuy", "weight": 10}, {"from": "zul99z", "to": "newmie", "weight": 10}, {"from": "zul99z", "to": "mirukuboi", "weight": 10}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

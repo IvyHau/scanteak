@@ -1,0 +1,116 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1000px;
+            height: 1000px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "rawrious", "label": "rawrious", "shape": "dot", "size": 10}, {"id": "dobbyghaut", "label": "dobbyghaut", "shape": "dot", "size": 10}, {"id": "QLevi", "label": "QLevi", "shape": "dot", "size": 10}, {"id": "caipngnopng", "label": "caipngnopng", "shape": "dot", "size": 10}, {"id": "fallenspaceman", "label": "fallenspaceman", "shape": "dot", "size": 10}, {"id": "Polared3d", "label": "Polared3d", "shape": "dot", "size": 10}, {"id": "awesomehazelnuts", "label": "awesomehazelnuts", "shape": "dot", "size": 10}, {"id": "ImpossibleAnger", "label": "ImpossibleAnger", "shape": "dot", "size": 10}, {"id": "SpermWhale", "label": "SpermWhale", "shape": "dot", "size": 10}, {"id": "a_man_without_a_pen", "label": "a_man_without_a_pen", "shape": "dot", "size": 10}, {"id": "chris888222", "label": "chris888222", "shape": "dot", "size": 10}, {"id": "Jammy_buttons", "label": "Jammy_buttons", "shape": "dot", "size": 10}, {"id": "wasteofrice", "label": "wasteofrice", "shape": "dot", "size": 10}, {"id": "Resident_Lolicon", "label": "Resident_Lolicon", "shape": "dot", "size": 10}, {"id": "AhJibKor", "label": "AhJibKor", "shape": "dot", "size": 10}, {"id": "very_unhappy_player", "label": "very_unhappy_player", "shape": "dot", "size": 10}, {"id": "-", "label": "-", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "hierarchicalRepulsion": {
+            "centralGravity": 0.0,
+            "damping": 0.09,
+            "nodeDistance": 50,
+            "springConstant": 0.01,
+            "springLength": 50
+        },
+        "solver": "hierarchicalRepulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
