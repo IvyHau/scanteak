@@ -12,8 +12,8 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 1000px;
-            height: 1000px;
+            width: 800px;
+            height: 800px;
             background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
@@ -50,7 +50,7 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"id": "kanderson", "label": "kanderson", "shape": "dot", "size": 10}, {"id": "-", "label": "-", "shape": "dot", "size": 10}, {"id": "sundaymorningstaple", "label": "sundaymorningstaple", "shape": "dot", "size": 10}, {"id": "x9200", "label": "x9200", "shape": "dot", "size": 10}, {"id": "road.not.taken", "label": "road.not.taken", "shape": "dot", "size": 10}, {"id": "QRM", "label": "QRM", "shape": "dot", "size": 10}, {"id": "curiousgeorge", "label": "curiousgeorge", "shape": "dot", "size": 10}, {"id": "beppi", "label": "beppi", "shape": "dot", "size": 10}, {"id": "chixchix", "label": "chixchix", "shape": "dot", "size": 10}, {"id": "JayCee", "label": "JayCee", "shape": "dot", "size": 10}, {"id": "mrsmonkie", "label": "mrsmonkie", "shape": "dot", "size": 10}, {"id": "beatle", "label": "beatle", "shape": "dot", "size": 10}]);
+        nodes = new vis.DataSet([{"color": "blue", "id": "kanderson", "label": "kanderson", "shape": "dot", "size": 2}, {"color": "blue", "id": "-", "label": "-", "shape": "dot", "size": 2}, {"color": "blue", "id": "sundaymorningstaple", "label": "sundaymorningstaple", "shape": "dot", "size": 2}, {"color": "blue", "id": "x9200", "label": "x9200", "shape": "dot", "size": 2}, {"color": "blue", "id": "road.not.taken", "label": "road.not.taken", "shape": "dot", "size": 2}, {"color": "blue", "id": "QRM", "label": "QRM", "shape": "dot", "size": 2}, {"color": "blue", "id": "curiousgeorge", "label": "curiousgeorge", "shape": "dot", "size": 2}, {"color": "blue", "id": "beppi", "label": "beppi", "shape": "dot", "size": 2}, {"color": "blue", "id": "chixchix", "label": "chixchix", "shape": "dot", "size": 2}, {"color": "blue", "id": "JayCee", "label": "JayCee", "shape": "dot", "size": 2}, {"color": "blue", "id": "mrsmonkie", "label": "mrsmonkie", "shape": "dot", "size": 2}, {"color": "blue", "id": "beatle", "label": "beatle", "shape": "dot", "size": 2}]);
         edges = new vis.DataSet([{"from": "kanderson", "to": "-", "weight": 10}, {"from": "kanderson", "to": "sundaymorningstaple", "weight": 10}, {"from": "kanderson", "to": "x9200", "weight": 10}, {"from": "kanderson", "to": "road.not.taken", "weight": 10}, {"from": "kanderson", "to": "QRM", "weight": 10}, {"from": "kanderson", "to": "curiousgeorge", "weight": 10}, {"from": "kanderson", "to": "beppi", "weight": 10}, {"from": "sundaymorningstaple", "to": "chixchix", "weight": 10}, {"from": "beppi", "to": "JayCee", "weight": 10}, {"from": "chixchix", "to": "-", "weight": 10}, {"from": "chixchix", "to": "mrsmonkie", "weight": 10}, {"from": "mrsmonkie", "to": "beatle", "weight": 10}]);
 
         // adding nodes and edges to the graph
@@ -76,14 +76,6 @@
     },
     "physics": {
         "enabled": true,
-        "hierarchicalRepulsion": {
-            "centralGravity": 0.0,
-            "damping": 0.09,
-            "nodeDistance": 50,
-            "springConstant": 0.01,
-            "springLength": 50
-        },
-        "solver": "hierarchicalRepulsion",
         "stabilization": {
             "enabled": true,
             "fit": true,

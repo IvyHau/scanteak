@@ -12,8 +12,8 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 1000px;
-            height: 1000px;
+            width: 800px;
+            height: 800px;
             background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
@@ -50,7 +50,7 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"id": "durianboy19", "label": "durianboy19", "shape": "dot", "size": 10}, {"id": "KimJiHoon", "label": "KimJiHoon", "shape": "dot", "size": 10}, {"id": "singapore1211", "label": "singapore1211", "shape": "dot", "size": 10}, {"id": "QLevi", "label": "QLevi", "shape": "dot", "size": 10}, {"id": "niteblane", "label": "niteblane", "shape": "dot", "size": 10}, {"id": "mysuperpowerissleep", "label": "mysuperpowerissleep", "shape": "dot", "size": 10}, {"id": "burgersk", "label": "burgersk", "shape": "dot", "size": 10}, {"id": "orgastronaut", "label": "orgastronaut", "shape": "dot", "size": 10}, {"id": "gretsall", "label": "gretsall", "shape": "dot", "size": 10}, {"id": "-", "label": "-", "shape": "dot", "size": 10}]);
+        nodes = new vis.DataSet([{"color": "blue", "id": "durianboy19", "label": "durianboy19", "shape": "dot", "size": 2}, {"color": "blue", "id": "KimJiHoon", "label": "KimJiHoon", "shape": "dot", "size": 2}, {"color": "blue", "id": "singapore1211", "label": "singapore1211", "shape": "dot", "size": 2}, {"color": "blue", "id": "QLevi", "label": "QLevi", "shape": "dot", "size": 2}, {"color": "blue", "id": "niteblane", "label": "niteblane", "shape": "dot", "size": 2}, {"color": "blue", "id": "mysuperpowerissleep", "label": "mysuperpowerissleep", "shape": "dot", "size": 2}, {"color": "blue", "id": "burgersk", "label": "burgersk", "shape": "dot", "size": 2}, {"color": "blue", "id": "orgastronaut", "label": "orgastronaut", "shape": "dot", "size": 2}, {"color": "blue", "id": "gretsall", "label": "gretsall", "shape": "dot", "size": 2}, {"color": "blue", "id": "-", "label": "-", "shape": "dot", "size": 2}]);
         edges = new vis.DataSet([]);
 
         // adding nodes and edges to the graph
@@ -76,14 +76,6 @@
     },
     "physics": {
         "enabled": true,
-        "hierarchicalRepulsion": {
-            "centralGravity": 0.0,
-            "damping": 0.09,
-            "nodeDistance": 50,
-            "springConstant": 0.01,
-            "springLength": 50
-        },
-        "solver": "hierarchicalRepulsion",
         "stabilization": {
             "enabled": true,
             "fit": true,

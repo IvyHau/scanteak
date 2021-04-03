@@ -12,8 +12,8 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 1000px;
-            height: 1000px;
+            width: 800px;
+            height: 800px;
             background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
@@ -50,7 +50,7 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"id": "screwedforgp", "label": "screwedforgp", "shape": "dot", "size": 10}, {"id": "rowgw", "label": "rowgw", "shape": "dot", "size": 10}, {"id": "Foxie13x", "label": "Foxie13x", "shape": "dot", "size": 10}, {"id": "k3lco", "label": "k3lco", "shape": "dot", "size": 10}, {"id": "Starfishwife", "label": "Starfishwife", "shape": "dot", "size": 10}, {"id": "Islandgirlnowhere", "label": "Islandgirlnowhere", "shape": "dot", "size": 10}, {"id": "FitCranberry", "label": "FitCranberry", "shape": "dot", "size": 10}, {"id": "diggify", "label": "diggify", "shape": "dot", "size": 10}, {"id": "kitsuneconundrum", "label": "kitsuneconundrum", "shape": "dot", "size": 10}, {"id": "lucied666", "label": "lucied666", "shape": "dot", "size": 10}, {"id": "Cryptothrow521", "label": "Cryptothrow521", "shape": "dot", "size": 10}, {"id": "milo_peng", "label": "milo_peng", "shape": "dot", "size": 10}, {"id": "tastyjalapeno", "label": "tastyjalapeno", "shape": "dot", "size": 10}, {"id": "CallmeSK", "label": "CallmeSK", "shape": "dot", "size": 10}, {"id": "erisestarrs", "label": "erisestarrs", "shape": "dot", "size": 10}, {"id": "singapourien", "label": "singapourien", "shape": "dot", "size": 10}, {"id": "xeosceleres", "label": "xeosceleres", "shape": "dot", "size": 10}, {"id": "mktolg", "label": "mktolg", "shape": "dot", "size": 10}, {"id": "Stezo187", "label": "Stezo187", "shape": "dot", "size": 10}, {"id": "DreamAeon", "label": "DreamAeon", "shape": "dot", "size": 10}, {"id": "-", "label": "-", "shape": "dot", "size": 10}]);
+        nodes = new vis.DataSet([{"color": "blue", "id": "screwedforgp", "label": "screwedforgp", "shape": "dot", "size": 2}, {"color": "blue", "id": "rowgw", "label": "rowgw", "shape": "dot", "size": 2}, {"color": "blue", "id": "Foxie13x", "label": "Foxie13x", "shape": "dot", "size": 2}, {"color": "blue", "id": "k3lco", "label": "k3lco", "shape": "dot", "size": 2}, {"color": "blue", "id": "Starfishwife", "label": "Starfishwife", "shape": "dot", "size": 2}, {"color": "blue", "id": "Islandgirlnowhere", "label": "Islandgirlnowhere", "shape": "dot", "size": 2}, {"color": "blue", "id": "FitCranberry", "label": "FitCranberry", "shape": "dot", "size": 2}, {"color": "blue", "id": "diggify", "label": "diggify", "shape": "dot", "size": 2}, {"color": "blue", "id": "kitsuneconundrum", "label": "kitsuneconundrum", "shape": "dot", "size": 2}, {"color": "blue", "id": "lucied666", "label": "lucied666", "shape": "dot", "size": 2}, {"color": "blue", "id": "Cryptothrow521", "label": "Cryptothrow521", "shape": "dot", "size": 2}, {"color": "blue", "id": "milo_peng", "label": "milo_peng", "shape": "dot", "size": 2}, {"color": "blue", "id": "tastyjalapeno", "label": "tastyjalapeno", "shape": "dot", "size": 2}, {"color": "blue", "id": "CallmeSK", "label": "CallmeSK", "shape": "dot", "size": 2}, {"color": "blue", "id": "erisestarrs", "label": "erisestarrs", "shape": "dot", "size": 2}, {"color": "blue", "id": "singapourien", "label": "singapourien", "shape": "dot", "size": 2}, {"color": "blue", "id": "xeosceleres", "label": "xeosceleres", "shape": "dot", "size": 2}, {"color": "blue", "id": "mktolg", "label": "mktolg", "shape": "dot", "size": 2}, {"color": "blue", "id": "Stezo187", "label": "Stezo187", "shape": "dot", "size": 2}, {"color": "blue", "id": "DreamAeon", "label": "DreamAeon", "shape": "dot", "size": 2}, {"color": "blue", "id": "-", "label": "-", "shape": "dot", "size": 2}]);
         edges = new vis.DataSet([]);
 
         // adding nodes and edges to the graph
@@ -76,14 +76,6 @@
     },
     "physics": {
         "enabled": true,
-        "hierarchicalRepulsion": {
-            "centralGravity": 0.0,
-            "damping": 0.09,
-            "nodeDistance": 50,
-            "springConstant": 0.01,
-            "springLength": 50
-        },
-        "solver": "hierarchicalRepulsion",
         "stabilization": {
             "enabled": true,
             "fit": true,

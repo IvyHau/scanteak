@@ -12,8 +12,8 @@
 <style type="text/css">
 
         #mynetwork {
-            width: 1000px;
-            height: 1000px;
+            width: 800px;
+            height: 800px;
             background-color: #ffffff;
             border: 1px solid lightgray;
             position: relative;
@@ -50,7 +50,7 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"id": "Girl_Next_Door ", "label": "Girl_Next_Door ", "shape": "dot", "size": 10}, {"id": "Toystory", "label": "Toystory", "shape": "dot", "size": 10}]);
+        nodes = new vis.DataSet([{"color": "blue", "id": "Girl_Next_Door ", "label": "Girl_Next_Door ", "shape": "dot", "size": 2}, {"color": "blue", "id": "Toystory", "label": "Toystory", "shape": "dot", "size": 2}]);
         edges = new vis.DataSet([{"from": "Girl_Next_Door ", "to": "Toystory", "weight": 10}]);
 
         // adding nodes and edges to the graph
@@ -76,14 +76,6 @@
     },
     "physics": {
         "enabled": true,
-        "hierarchicalRepulsion": {
-            "centralGravity": 0.0,
-            "damping": 0.09,
-            "nodeDistance": 50,
-            "springConstant": 0.01,
-            "springLength": 50
-        },
-        "solver": "hierarchicalRepulsion",
         "stabilization": {
             "enabled": true,
             "fit": true,
