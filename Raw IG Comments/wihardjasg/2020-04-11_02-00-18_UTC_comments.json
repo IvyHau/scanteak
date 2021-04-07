@@ -1,0 +1,40 @@
+[
+    {
+        "id": 17858988523862341,
+        "created_at": 1586655054,
+        "text": "Is this a rocking chair ?",
+        "owner": {
+            "id": "416516727",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/11887202_876976339024405_1895639609_a.jpg?_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=TaRmPCpgiP8AX9tvq94&edm=AMrZAGUAAAAA&ccb=7-4&oh=2072dae11ccfd58f0024279e8c1bb281&oe=608DDDB6&_nc_sid=9fb510",
+            "username": "cynthia88_"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17868944947706851,
+                "created_at": 1586743404,
+                "text": "@cynthia88_ Hi, this is not a rocking chair. It\u2019s our Aaliyah Teak Party Bench that can be converted into a table to accommodate up to 4 pax :)",
+                "owner": {
+                    "id": "1391949642",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/13267394_609275262555087_1925054414_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FAWxslfGQisAX_ve5XL&edm=AMrZAGUAAAAA&ccb=7-4&oh=8cf701eb6330327fd4f66b0c9bcda26d&oe=608CBEFA&_nc_sid=9fb510",
+                    "username": "wihardjasg"
+                },
+                "likes_count": 0
+            },
+            {
+                "id": 17845080854076171,
+                "created_at": 1586743793,
+                "text": "@wihardjasg can u pls dm me the price . thanks",
+                "owner": {
+                    "id": "416516727",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/11887202_876976339024405_1895639609_a.jpg?_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=TaRmPCpgiP8AX9tvq94&edm=AMrZAGUAAAAA&ccb=7-4&oh=2072dae11ccfd58f0024279e8c1bb281&oe=608DDDB6&_nc_sid=9fb510",
+                    "username": "cynthia88_"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17847648014489894,
+        "created_at": 1609291834,
+        "text": "Hi, do you have other colors for this sofa in leather? Thank you!",
+        "owner": {
+            "id": "1925615",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/138578016_223046112841066_8722035415685080067_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=wiIysZVBRPgAX8HbLjh&edm=AMrZAGUAAAAA&ccb=7-4&oh=886f6c326c62bd499e6c9a4770d7297d&oe=608B2559&_nc_sid=9fb510",
+            "username": "isa.belle.shen"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17892827461759952,
+                "created_at": 1609294779,
+                "text": "@thousandpricks pmed:)",
+                "owner": {
+                    "id": "1391949642",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/13267394_609275262555087_1925054414_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FAWxslfGQisAX_ve5XL&edm=AMrZAGUAAAAA&ccb=7-4&oh=8cf701eb6330327fd4f66b0c9bcda26d&oe=608CBEFA&_nc_sid=9fb510",
+                    "username": "wihardjasg"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]

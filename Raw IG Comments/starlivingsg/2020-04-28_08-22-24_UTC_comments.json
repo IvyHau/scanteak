@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17851432150992544,
+        "created_at": 1588068193,
+        "text": "So what about the delivery time and cost?",
+        "owner": {
+            "id": "287910427",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/36041196_1997923280277939_3117542912775159808_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=eTBMuaSn4nYAX9VMpYG&edm=AMrZAGUAAAAA&ccb=7-4&oh=9ed15ad458022e38daffd2043bac53fc&oe=608B8FC9&_nc_sid=9fb510",
+            "username": "auntygina_1971"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17887730329522873,
+                "created_at": 1588068585,
+                "text": "@auntygina_1971 Hi, there will be delivery surcharge if your purchase is below the minimum spending. For more info, please refer to https://www.starliving.com.sg/pages/delivery-info. Kindly note that we are currently operating in minimal capacity, hence only able to deliver twice a week for online orders.",
+                "owner": {
+                    "id": "2218428575",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/17076129_1850463021895275_5955219704934039552_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=WweVLkjFwA8AX-dUFY-&edm=AMrZAGUAAAAA&ccb=7-4&oh=51c45ad9d9ab88e0dbd4063ad29de67c&oe=608B1703&_nc_sid=9fb510",
+                    "username": "starlivingsg"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

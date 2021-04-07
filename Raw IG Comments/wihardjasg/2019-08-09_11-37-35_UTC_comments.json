@@ -1,0 +1,80 @@
+[
+    {
+        "id": 18010797541243072,
+        "created_at": 1565440901,
+        "text": "Borong bu, jgn cuma di liatin aja \ud83d\ude04",
+        "owner": {
+            "id": "1614316589",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/46084817_2159367287455062_6769065971157041152_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=0fsgLFDnumIAX9MSpIk&edm=AMrZAGUAAAAA&ccb=7-4&oh=d560ed10fc3ff8392d628416f13ef419&oe=608CDAD9&_nc_sid=9fb510",
+            "username": "sanwi29"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 18090671524053222,
+                "created_at": 1565485024,
+                "text": "@sanwi29 \ud83e\udd23\ud83e\udd23\ud83d\udc4d\ud83d\udc4d",
+                "owner": {
+                    "id": "8098981766",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/128611865_438861963788935_7877144627960677449_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=JeetlmvR7yQAX-oYu__&edm=AMrZAGUAAAAA&ccb=7-4&oh=87b863e85492de30e9518355f7aedb11&oe=608C786D&_nc_sid=9fb510",
+                    "username": "nariasyantika"
+                },
+                "likes_count": 0
+            }
+        ]
+    },
+    {
+        "id": 17916064228321499,
+        "created_at": 1565354256,
+        "text": "Baguuss yaa \ud83d\ude0d",
+        "owner": {
+            "id": "1465142126",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/60813828_611227476044573_501696985271631872_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=g0Ste3Gu5qkAX8IXcsw&edm=AMrZAGUAAAAA&ccb=7-4&oh=572562934c6e7c2842ade7cdcfb08648&oe=608C0714&_nc_sid=9fb510",
+            "username": "narinta298"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17905715707344705,
+                "created_at": 1565354973,
+                "text": "@narinta298 iyaaa seneng lama lama di situ \ud83d\ude06\ud83d\ude06",
+                "owner": {
+                    "id": "8098981766",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/128611865_438861963788935_7877144627960677449_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=JeetlmvR7yQAX-oYu__&edm=AMrZAGUAAAAA&ccb=7-4&oh=87b863e85492de30e9518355f7aedb11&oe=608C786D&_nc_sid=9fb510",
+                    "username": "nariasyantika"
+                },
+                "likes_count": 1
+            }
+        ]
+    },
+    {
+        "id": 17842122700589299,
+        "created_at": 1565351621,
+        "text": "Lucu lucuuu",
+        "owner": {
+            "id": "1339987808",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/10809838_714528875330390_234156388_a.jpg?_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=_YYOihPmONwAX_Tn4Ne&edm=AMrZAGUAAAAA&ccb=7-4&oh=b5137ba97cf72d615310863ddad6248e&oe=608AD1E3&_nc_sid=9fb510",
+            "username": "dnartyasari"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 18090437665025780,
+                "created_at": 1565352099,
+                "text": "@dnartyasari iyaa kayu jati made in indonesia \ud83d\udc4d",
+                "owner": {
+                    "id": "8098981766",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/128611865_438861963788935_7877144627960677449_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=JeetlmvR7yQAX-oYu__&edm=AMrZAGUAAAAA&ccb=7-4&oh=87b863e85492de30e9518355f7aedb11&oe=608C786D&_nc_sid=9fb510",
+                    "username": "nariasyantika"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]

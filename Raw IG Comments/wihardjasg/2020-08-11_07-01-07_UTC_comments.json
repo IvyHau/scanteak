@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17873364580954860,
+        "created_at": 1601971177,
+        "text": "The bookshelf is mounted onto wall or free standing? @wihardjasg",
+        "owner": {
+            "id": "26695493",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/134441841_1009163039571586_2321726391929482964_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=LgEChnB0LbAAX-dO6Me&edm=AMrZAGUAAAAA&ccb=7-4&oh=3860fd8c5aeae52712bd60ea8cfdc845&oe=608CEB0F&_nc_sid=9fb510",
+            "username": "pei_pei_pei_pei"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17862550631136288,
+                "created_at": 1601975444,
+                "text": "@pei_pei_pei_pei Hello! It is mounted on the wall :)",
+                "owner": {
+                    "id": "1391949642",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/13267394_609275262555087_1925054414_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FAWxslfGQisAX_ve5XL&edm=AMrZAGUAAAAA&ccb=7-4&oh=8cf701eb6330327fd4f66b0c9bcda26d&oe=608CBEFA&_nc_sid=9fb510",
+                    "username": "wihardjasg"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]
