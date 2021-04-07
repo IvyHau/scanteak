@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17907972823465891,
+        "created_at": 1593718835,
+        "text": "What\u2019s the dimensions of this swing ?",
+        "owner": {
+            "id": "37217776",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/11410386_1627643127512673_2058485318_a.jpg?_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=WKip04NvmnUAX98jgtJ&edm=AMrZAGUAAAAA&ccb=7-4&oh=f2497fe8058ef5052f2018938ab0bd5b&oe=608B2D74&_nc_sid=9fb510",
+            "username": "q_izabeth"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17869011097851254,
+                "created_at": 1593739396,
+                "text": "@q_izabeth We have it in 3 sizes - 1m, 1.2m to 1.5m. Pls head over to wja.sg and search for Cole Teak Swing :)",
+                "owner": {
+                    "id": "1391949642",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/13267394_609275262555087_1925054414_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FAWxslfGQisAX_ve5XL&edm=AMrZAGUAAAAA&ccb=7-4&oh=8cf701eb6330327fd4f66b0c9bcda26d&oe=608CBEFA&_nc_sid=9fb510",
+                    "username": "wihardjasg"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]

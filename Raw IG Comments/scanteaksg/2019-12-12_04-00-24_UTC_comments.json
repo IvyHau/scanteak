@@ -1,0 +1,15 @@
+[
+    {
+        "id": 18158973841036114,
+        "created_at": 1599151314,
+        "text": "Hi how much is this sofa?",
+        "owner": {
+            "id": "217602136",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/133165382_159320328878160_4376557381875779110_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FgpQTXd7AaQAX8XDHLt&ccb=7-4&oh=3f614fb2fe43faae9d98d2cb05c4663b&oe=608B8B0E&_nc_sid=9fb510",
+            "username": "tawe_weng15"
+        },
+        "likes_count": 0,
+        "answers": []
+    }
+]

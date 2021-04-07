@@ -1,0 +1,41 @@
+[
+    {
+        "id": 17886763556062479,
+        "created_at": 1615450635,
+        "text": "Hi may i know what\u2019s the length of the table?",
+        "owner": {
+            "id": "2615394",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/22071232_716700221874390_6088676789930950656_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=PhTpfZdiPYsAX-9OQfO&ccb=7-4&oh=14fb0328b584f4c2b97ce7ac0566d63e&oe=608C3BE0&_nc_sid=9fb510",
+            "username": "serena_seah"
+        },
+        "likes_count": 0,
+        "answers": []
+    },
+    {
+        "id": 17869291933332466,
+        "created_at": 1552538646,
+        "text": "Hi how much are the legs? We would like to add it to our order.",
+        "owner": {
+            "id": "2584901",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/163285971_452476279530261_1379414490980447825_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=S2LTZv6khwUAX_R5Pyp&ccb=7-4&oh=2129489b66cdf051b4eb472faf7685e5&oe=608B1E56&_nc_sid=9fb510",
+            "username": "dewykitty"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17869118410329960,
+                "created_at": 1552539571,
+                "text": "@dewykitty Hey there! Thanks for the enquiry! This model is currently discontinued. We do have the Maven legs which looks similar to this! Do drop us a WhatsApp at 83718864 for a picture and for further enquiries!",
+                "owner": {
+                    "id": "4589298926",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/40021227_482900948878571_3388190148083580928_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=x8-xFhapEb8AX8AFI8y&ccb=7-4&oh=f1e639a31464bc71bc50c24735a70454&oe=608A690A&_nc_sid=9fb510",
+                    "username": "greyandsanders"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

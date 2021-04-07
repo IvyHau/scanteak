@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17864405518902282,
+        "created_at": 1593687246,
+        "text": "Sore..mau nanya dong. Yg ini brp ya?",
+        "owner": {
+            "id": "10917287243",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/154006155_130897725595305_1955483215494494699_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=Z4ASgzSf2wwAX-_Bb3A&ccb=7-4&oh=ac9216d3b93821c06ebb68572b0ba8bc&oe=60897889&_nc_sid=9fb510",
+            "username": "amoreee05"
+        },
+        "likes_count": 1,
+        "answers": [
+            {
+                "id": 17923468756413560,
+                "created_at": 1593688692,
+                "text": "@amoreee05 inbox ya Bu",
+                "owner": {
+                    "id": "4835950961",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/160021192_1091409084671615_3892875244054858492_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=xHZHLEH8d8wAX9brR9d&ccb=7-4&oh=a391c44755287f6e1e022601755fa352&oe=608A52F3&_nc_sid=9fb510",
+                    "username": "blessindofurniture"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

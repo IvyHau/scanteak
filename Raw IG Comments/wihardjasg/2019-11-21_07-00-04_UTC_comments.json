@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17857412651085658,
+        "created_at": 1595761351,
+        "text": "Hi , what\u2019s the dimension of this sofa ?",
+        "owner": {
+            "id": "461804291",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/133952901_159615922202441_1165146269018376884_n.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=8rJ2ts_MRPkAX_rkRSJ&edm=AMrZAGUAAAAA&ccb=7-4&oh=7df5a4fb8f8866320668f45c68765adb&oe=608D753E&_nc_sid=9fb510",
+            "username": "jnybergtan"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17854037603113007,
+                "created_at": 1595813006,
+                "text": "@jnybergtan pmed :)",
+                "owner": {
+                    "id": "1391949642",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/s150x150/13267394_609275262555087_1925054414_a.jpg?tp=1&_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=FAWxslfGQisAX_ve5XL&edm=AMrZAGUAAAAA&ccb=7-4&oh=8cf701eb6330327fd4f66b0c9bcda26d&oe=608CBEFA&_nc_sid=9fb510",
+                    "username": "wihardjasg"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

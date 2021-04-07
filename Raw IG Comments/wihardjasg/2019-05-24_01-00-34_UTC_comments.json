@@ -1,0 +1,15 @@
+[
+    {
+        "id": 18069264835016813,
+        "created_at": 1558792064,
+        "text": "Hi how much is this sofa?",
+        "owner": {
+            "id": "25732433",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-xsp1-3.cdninstagram.com/v/t51.2885-19/11350809_941584862575651_1043790241_a.jpg?_nc_ht=scontent-xsp1-3.cdninstagram.com&_nc_ohc=5sS-bw43B3sAX91sVrZ&edm=AMrZAGUAAAAA&ccb=7-4&oh=cc2e8f7912e73190f96ab5937a3b0419&oe=608B78A0&_nc_sid=9fb510",
+            "username": "qushie"
+        },
+        "likes_count": 0,
+        "answers": []
+    }
+]
